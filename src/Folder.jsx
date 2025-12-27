@@ -7,6 +7,10 @@ export default function Folder() {
 
     const tabs = ["About", "Resume", "Projects", "Experience"];
 
+    const handleTabClick = (tab) => {
+        setActiveTab(tab);
+        setOpen(true);
+    }
     return (
         <div 
             className={`folder-container ${open ? "open" : ""}`}
@@ -16,9 +20,7 @@ export default function Folder() {
                 {tabs.map((tab) => (
                     <button key = {tab} className = {`tab ${activeTab === tab ? "active" : ""}`}
                     onClick = {(e) => {
-                        e.stopPropagation();
-                        setActiveTab(tab);
-                        setOpen(true);
+                        handleTabClick(tab)
                     }}
                     >
                         {tab}
@@ -26,8 +28,7 @@ export default function Folder() {
                 ))}
             </div>
             
-            {open && (
-            <div className = "tab-content" style={{ display: open ? "block" : "none" }}>
+            <div className = {`tab-content ${open ? "fade-in" : "fade-out"}`}>
                 {activeTab === "About" && <p> Welcome! My name is Bhavana! </p>}
                 {activeTab === "Resume" && <p> Resume content here...</p>}
                 {activeTab === "Projects" && <p> Here are my projects! </p>}
@@ -35,7 +36,6 @@ export default function Folder() {
                     <p> Internships and work experience here ...</p>
                 )}
             </div>
-         )}
         </div>
     );
 }

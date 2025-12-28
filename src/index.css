@@ -30,7 +30,10 @@ body {
   align-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(198, 207, 250);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(167, 203, 249); /* Fallback color */
   font-family:'Times New Roman', Times, serif
 }
 

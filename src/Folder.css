@@ -5,11 +5,10 @@
   background-color: #f5c76a;
   border-radius: 12px;
   position: relative;
-  padding-top: 50px;
+  padding-top: 30px;
   cursor: pointer;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-  padding-top: 50px;
+  overflow: visible;
   transition: transform 0.5s ease;
 }
 
@@ -23,9 +22,9 @@
     opacity:1;
 }
 .tabs {
-  position: relative;
-  top: 0;
-  left: 20px;
+  position: absolute;
+  top: -18px;
+  left: 24px;
   display: flex;
   gap: 10px;
   z-index: 10;
@@ -34,14 +33,16 @@
 .tab {
   background: #eab54f;
   border: none;
-  padding: 8px 14px;
+  padding: 8px 16px;
   border-radius: 8px 8px 0 0;
   font-weight: 500;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 .tab-active{
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    top: 1px;
 }
 
 .tab-content {

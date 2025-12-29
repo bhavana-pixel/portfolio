@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* horizontally center title + folder */
+  gap: 20px;                /* smaller space between title and folder */
+  padding-top: 40px;        /* distance from top of viewport */
+  min-height: 100vh;        /* optional */
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}

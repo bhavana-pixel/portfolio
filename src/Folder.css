@@ -1,30 +1,43 @@
+.folder-page-wrapper {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: flex-start; /* align top, so it’s just below title */
+  gap: 40px;               /* space between folder and paper */
+}
+
+/* Folder + paper container */
+.folder-wrapper {
+  display: flex;
+  align-items: center;      /* vertical center */
+  gap: 40px;                /* space between folder and paper */
+  justify-content: center;  /* center as a group */
+}
+
+/* Folder */
 .folder-container {
-  width: 650px;
-  min-height: 350px;
-  height: 380px;
+  width: 750px;
+  min-height: 450px;
   background-color: #f5c76a;
   border-radius: 12px;
   position: relative;
-  padding-top: 30px;
+  padding: 40px 30px 30px 30px;
   cursor: pointer;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-  overflow: visible;
-  transition: transform 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-.folder-container.closed{
-    transform: sclaeY(0.8);
-    opacity:0.7;
+/* Shrink proportionally when a tab is active */
+.folder-container.shrunk {
+  width: 375px;      /* shrink width */
+  min-height: 225px; /* shrink height */
+  padding: 20px;
 }
 
-.folder-container.open{
-    transform: scaleY(1);
-    opacity:1;
-}
+/* Tabs */
 .tabs {
   position: absolute;
   top: -18px;
-  left: 24px;
+  left: 20px;
   display: flex;
   gap: 10px;
   z-index: 10;
@@ -36,46 +49,30 @@
   padding: 8px 16px;
   border-radius: 8px 8px 0 0;
   font-weight: 500;
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
-.tab-active{
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    top: 1px;
+.tab.active {
+  background-color: #fff8dc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: black;
 }
 
-.tab-content {
-  margin-top: 20px;
+/* Paper */
+.paper {
+  width: 600px;
+  min-height: 450px;
   background: #fff8dc;
-  height: 100%;
   padding: 30px;
-  animation: fadeIn 0.4s ease forwards;
-  color:black;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  font-family: 'Times New Roman', serif;
+  color: #000;
+  opacity: 0;
+  animation: paperFadeIn 0.4s forwards;
 }
 
-.tab-content.fade-in{
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.tab_content.fade-out{
-    opacity:0;
-    transform: translateY(20px);
-}
-.folder-container:not(.open) .tab-content {
-    display: none;
-}
-
-@keyframes fadeIn{
-    from{
-        opacity: 0;
-        transform: translateY(15px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+/* Paper fade-in */
+@keyframes paperFadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }

@@ -32,7 +32,7 @@ export default function TerminalLoader({ onFinish }) {
         const timeout = setTimeout(() => {
           setCurrentText((prev) => prev + currentLine[charIndex]);
           setCharIndex((prev) => prev + 1);
-        }, 50);
+        }, 55);
         return () => clearTimeout(timeout);
       } else {
         setLines((prev) => [...prev, currentLine]);

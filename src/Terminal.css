@@ -1,5 +1,5 @@
 .terminal-loader {
-  position: fixed;       
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -9,12 +9,16 @@
   font-family: monospace;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* align top */
-  align-items: flex-start;     /* align left */
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 20px;
-  z-index: 9999;         
+  z-index: 9999;
   opacity: 1;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.6s ease;
+}
+
+.terminal-loader.fade-out {
+  opacity: 0;
 }
 
 .terminal-line {
@@ -22,7 +26,7 @@
 }
 
 .error-line {
-  color: #ff4d4d; /* red for error lines */
+  color: #ff4d4d;
 }
 
 .cursor {

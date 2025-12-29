@@ -10,7 +10,14 @@ export default function Folder() {
       <div className="folder-wrapper">
         {/* Folder */}
         <div className={`folder-container ${activeTab ? "shrunk" : ""}`}>
-          <div className="tabs">
+            <div className="paperclip-wrapper">
+                <span className="paperclip">📎</span>
+                <div className="clip-note">
+                    <br/>Click each tab to<br />learn more about me! <br/>
+                </div>
+            </div>
+
+            <div className="tabs">
             {tabs.map((tab) => (
               <button
                 key={tab}

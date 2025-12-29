@@ -34,7 +34,7 @@ body {
   background-position: center;
   background-size: cover;
   background-color: rgb(167, 203, 249); /* Fallback color */
-  font-family:Georgia, 'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
 }
 
 h1 {

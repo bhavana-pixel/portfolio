@@ -55,16 +55,48 @@
 }
 
 .paper {
-  width: 600px;
+  width: 700px;
   min-height: 450px;
-  background: #fff8dc;
+  background: #fffdf5; /* off-white paper color */
   padding: 30px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   font-family: 'Times New Roman', serif;
   color: #000;
   opacity: 0;
   animation: paperFadeIn 0.4s forwards;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Loose-leaf horizontal lines */
+.paper::before {
+  content: "";
+  position: absolute;
+  top: 50px; /* start a little below top */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 29px,
+    #bfe0fe 30px
+  );
+  pointer-events: none; /* so lines don’t interfere with text */
+}
+
+/* Holes on the left */
+.paper::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  width: 12px;
+  height: calc(100% - 80px);
+  background-image: radial-gradient(circle, #f5f5f5 50%, transparent 51%);
+  background-size: 12px 40px;
+  pointer-events: none;
 }
 
 @keyframes paperFadeIn {

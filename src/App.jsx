@@ -20,7 +20,7 @@ export default function App() {
       {showPortfolio && (
         <div className={`page fade-in-overlap ${!loading ? "visible" : ""}`}>
           <div className="title-container">
-            <h1 className="title">Bhavana – Portfolio</h1>
+            <h1 className="title">Hi! I'm Bhavana</h1>
           </div>
           <Folder />
         </div>

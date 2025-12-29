@@ -57,3 +57,16 @@
 .title {
   font-size: 3rem;
 }
+.cursor {
+  display: inline-block;
+  width: 10px;
+  animation: blinkAndDisappear 1s step-start infinite, disappear 1s forwards 10s;
+}
+
+@keyframes blinkAndDisappear {
+  50% { opacity: 0; }
+}
+
+@keyframes disappear {
+  to { opacity: 0; }
+}

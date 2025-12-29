@@ -2,6 +2,7 @@ import { useState } from "react";
 import Folder from "./Folder";
 import TerminalLoader from "./Terminal";
 import "./App.css";
+import TypingTitle from "./TypingTitle";
 
 export default function App() {
   const [loading, setLoading] = useState(true);    // terminal visible
@@ -20,7 +21,8 @@ export default function App() {
       {showPortfolio && (
         <div className={`page fade-in-overlap ${!loading ? "visible" : ""}`}>
           <div className="title-container">
-            <h1 className="title">Hi! I'm Bhavana</h1>
+            {/* Had to add an extra i so thst the typing title worked lol */}
+            <TypingTitle text="Hii! I'm Bhavana" speed={90} /> 
           </div>
           <Folder />
         </div>

@@ -5,7 +5,7 @@
   gap: 40px;               /* space between folder and paper */
 }
 
-/* Folder + paper container */
+
 .folder-wrapper {
   display: flex;
   align-items: center;      /* vertical center */
@@ -13,7 +13,6 @@
   justify-content: center;  /* center as a group */
 }
 
-/* Folder */
 .folder-container {
   width: 750px;
   min-height: 450px;
@@ -26,14 +25,12 @@
   transition: all 0.5s ease;
 }
 
-/* Shrink proportionally when a tab is active */
 .folder-container.shrunk {
   width: 375px;      /* shrink width */
   min-height: 225px; /* shrink height */
   padding: 20px;
 }
 
-/* Tabs */
 .tabs {
   position: absolute;
   top: -18px;
@@ -57,7 +54,6 @@
   color: black;
 }
 
-/* Paper */
 .paper {
   width: 600px;
   min-height: 450px;
@@ -71,7 +67,6 @@
   animation: paperFadeIn 0.4s forwards;
 }
 
-/* Paper fade-in */
 @keyframes paperFadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }

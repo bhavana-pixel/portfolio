@@ -1,0 +1,36 @@
+.terminal-loader {
+  position: fixed;       
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  color: #00ff00;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* align top */
+  align-items: flex-start;     /* align left */
+  padding: 20px;
+  z-index: 9999;         
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.terminal-line {
+  margin: 0;
+}
+
+.error-line {
+  color: #ff4d4d; /* red for error lines */
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}

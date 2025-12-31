@@ -38,13 +38,49 @@ export default function Folder() {
               ← Back
             </button>
 
-            {activeTab === "About" && <p>Welcome! My name is Bhavana!</p>}
+            {activeTab === "About" && (
+              <div className="about-layout">
+                <div className="about-text">
+                  <h3>Welcome, my name is Bhavana Dakshinamoorthy!</h3>
+
+                  <p>
+                    I am an undergraduate computer science student at West Virginia
+                    University with a minor in General Business!
+                  </p>
+
+                  <div className="interests-row">
+                    <div className="interests-list">
+                      <p><strong>Some of my interests include ⇣</strong></p>
+                      <p>✨ Machine Learning</p>
+                      <p>✨ Artificial Intelligence</p>
+                      <p>✨ Cloud Engineering</p>
+                      <p>✨ Full-Stack Web Development</p>
+                      <p>✨ Integrating CS into Healthcare</p>
+                      <p>✨ Building projects & learning new technologies</p>
+                    </div>
+                  
+                  <div className="photo-wrapper">
+                    <img 
+                      src="/me.jpg"
+                      alt="Bhavana"
+                      className="about-photo"
+                    />
+                  </div>
+          
+                  </div>
+                  <p className="quote">
+                    “For the things we have to learn before we can do them, we learn by doing them.”
+                  </p>
+                  <p className="author">— Aristotle</p>
+              </div>
+              </div>
+            )}
             {activeTab === "Resume" && <p>Resume content goes here...</p>}
             {activeTab === "Projects" && <p>Here are my projects!</p>}
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}
           </div>
         )}
       </div>
-    </div>
+      </div>
   );
 }

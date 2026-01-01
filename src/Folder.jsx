@@ -75,7 +75,7 @@ export default function Folder() {
               </div>
               </div>
             )}
-            {activeTab === "Resume" && <p>Resume content goes here...</p>}
+            {activeTab === "Resume" && <p>Resume file here...</p>}
             {activeTab === "Projects" && <p>Here are my projects!</p>}
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}
           </div>

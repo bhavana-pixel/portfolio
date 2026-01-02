@@ -10,14 +10,14 @@ export default function Folder() {
       <div className="folder-wrapper">
         {/* Folder */}
         <div className={`folder-container ${activeTab ? "shrunk" : ""}`}>
-            <div className="paperclip-wrapper">
-                <span className="paperclip">📎</span>
-                <div className="clip-note">
-                    <br/>Click each tab to<br />learn more about me! <br/>
-                </div>
+          <div className="paperclip-wrapper">
+            <span className="paperclip">📎</span>
+            <div className="clip-note">
+              <br />Click each tab to<br />learn more about me! <br />
             </div>
+          </div>
 
-            <div className="tabs">
+          <div className="tabs">
             {tabs.map((tab) => (
               <button
                 key={tab}
@@ -58,29 +58,71 @@ export default function Folder() {
                       <p>✨ Integrating CS into Healthcare</p>
                       <p>✨ Building projects & learning new technologies</p>
                     </div>
-                  
-                  <div className="photo-wrapper">
-                    <img 
-                      src="/me.jpg"
-                      alt="Bhavana"
-                      className="about-photo"
-                    />
-                  </div>
-          
+
+                    <div className="photo-wrapper">
+                      <img
+                        src="/me.jpg"
+                        alt="Bhavana"
+                        className="about-photo"
+                      />
+                    </div>
+
                   </div>
                   <p className="quote">
                     “For the things we have to learn before we can do them, we learn by doing them.”
                   </p>
                   <p className="author">— Aristotle</p>
-              </div>
+                </div>
               </div>
             )}
             {activeTab === "Resume" && <p>Resume file here...</p>}
-            {activeTab === "Projects" && <p>Here are my projects!</p>}
+
+            {activeTab === "Projects" && (
+              <div className="projects-layout">
+  <h3>Projects</h3>
+
+  <div className="project-row">
+    <div className="project-text">
+      <p>
+        <strong>1. Quotebook</strong> — AI-Powered Quote Generator
+      </p>
+
+      <ul>
+        <li>A web app that allows users to input moods to receive 10 personalized quotes</li>
+        <li>Uses artificial intelligence to analyze input and generate quotes</li>
+        <li>Allows account creation and saving quotes to user profiles</li>
+      </ul>
+    </div>
+
+    {/* Image + GitHub logo wrapper */}
+    <div className="project-image-wrapper">
+      <img
+        src="/quotebook.jpg"
+        alt="Quotebook project"
+        className="project-image"
+      />
+
+      <a
+        href="https://github.com/quote-generator-devs/quote-generator"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="github-link"
+      >
+        <img
+          src="/github-logo.png"
+          alt="GitHub Repository"
+          className="github-logo"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+            )}
+
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}
           </div>
         )}
       </div>
-      </div>
+    </div>
   );
 }

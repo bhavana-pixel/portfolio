@@ -114,11 +114,14 @@ export default function Folder() {
           className="github-logo"
         />
       </a>
-    </div>
+    </div> 
   </div>
+
+  <p>
+    <strong> 2. Beach Day </strong> - Beach Trip Planner
+  </p>
 </div>
             )}
-
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}
           </div>
         )}

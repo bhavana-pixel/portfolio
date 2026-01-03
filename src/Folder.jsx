@@ -117,10 +117,19 @@ export default function Folder() {
     </div> 
   </div>
 
-  <p>
-    <strong> 2. Beach Day </strong> - Beach Trip Planner
-  </p>
-</div>
+      <div className = "project-two">
+        <p>
+          <strong> 2. Beach Day </strong> - Beach Trip Planner
+          <ul>
+            <li> A tool that allows users to plan their ideal beach trips. </li>
+            <li> Allows users to enter a specified beach to retrieve data on <br></br>
+                  its weather, forecast, and beach info.</li>
+            <li> Users can also save beaches to their profiles and enter personal <br></br>
+                  events for which dynamic email alerts can be sent for beach hazards. </li>
+          </ul>
+        </p>
+      </div>
+      </div>
             )}
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}
           </div>

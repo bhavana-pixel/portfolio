@@ -294,6 +294,7 @@
   transition: transform 0.2s;
 }
 
+
 @keyframes photoFadeIn{
   to{
     opacity: 1;

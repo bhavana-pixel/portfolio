@@ -244,6 +244,7 @@
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  width:100%;
 }
 
 .project-text {
@@ -294,6 +295,38 @@
   transition: transform 0.2s;
 }
 
+.project-row-reverse{
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.project-row-reverse .project-text{
+  text-align:right;
+}
+
+.project-row {
+  align-items: center;
+  margin-bottom: 6%;
+}
+
+.project-text ul {
+  padding-left: 10px;   
+  margin: 0;            
+  list-style-position: inside; 
+}
+
+.project-text li {
+  margin-bottom: 4px;  
+}
+
+.github-logo-2 {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s;
+  position:relative;
+  margin-bottom: 12%;
+}
 
 @keyframes photoFadeIn{
   to{

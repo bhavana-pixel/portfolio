@@ -77,60 +77,80 @@ export default function Folder() {
             )}
             {activeTab === "Resume" && <p>Resume file here...</p>}
 
-            {activeTab === "Projects" && (
-              <div className="projects-layout">
-  <h3>Projects</h3>
+{activeTab === "Projects" && (
+  <div className="projects-layout">
+    <h3>Projects</h3>
 
-  <div className="project-row">
-    <div className="project-text">
-      <p>
-        <strong>1. Quotebook</strong> — AI-Powered Quote Generator
-      </p>
+    {/* Project 1 */}
+    <div className="project-row">
+      <div className="project-text">
+        <p>
+          <strong>1. Quotebook</strong> — AI-Powered Quote Generator
+        </p>
+        <ul>
+          <li>A web app that allows users to input moods to receive 10 personalized quotes</li>
+          <li>Uses artificial intelligence to analyze input and generate quotes</li>
+          <li>Allows account creation and saving quotes to user profiles</li>
+        </ul>
+      </div>
 
-      <ul>
-        <li>A web app that allows users to input moods to receive 10 personalized quotes</li>
-        <li>Uses artificial intelligence to analyze input and generate quotes</li>
-        <li>Allows account creation and saving quotes to user profiles</li>
-      </ul>
+      <div className="project-image-wrapper">
+        <img
+          src="/quotebook.jpg"
+          alt="Quotebook project"
+          className="project-image"
+        />
+        <a
+          href="https://github.com/quote-generator-devs/quote-generator"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          <img
+            src="/github-logo.png"
+            alt="GitHub Repository"
+            className="github-logo"
+          />
+        </a>
+      </div>
     </div>
 
-    {/* Image + GitHub logo wrapper */}
-    <div className="project-image-wrapper">
-      <img
-        src="/quotebook.jpg"
-        alt="Quotebook project"
-        className="project-image"
-      />
-
-      <a
-        href="https://github.com/quote-generator-devs/quote-generator"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="github-link"
-      >
-        <img
-          src="/github-logo.png"
-          alt="GitHub Repository"
-          className="github-logo"
-        />
-      </a>
-    </div> 
-  </div>
-
-      <div className = "project-two">
+    {/* Project 2 */}
+    <div className="project-row-reverse">
+      <div className="project-text">
         <p>
-          <strong> 2. Beach Day </strong> - Beach Trip Planner
-          <ul>
-            <li> A tool that allows users to plan their ideal beach trips. </li>
-            <li> Allows users to enter a specified beach to retrieve data on <br></br>
-                  its weather, forecast, and beach info.</li>
-            <li> Users can also save beaches to their profiles and enter personal <br></br>
-                  events for which dynamic email alerts can be sent for beach hazards. </li>
-          </ul>
+          <strong>2. Beach Day</strong> — Beach Trip Planner
         </p>
+        <ul>
+          <li>A tool that allows users to plan their ideal beach trips</li>
+          <li>Retrieves weather, forecasts, and beach information</li>
+          <li>Can save beaches and receive hazard email alerts</li>
+          <li> Allows for accoutn creation.</li>
+        </ul>
       </div>
+
+      <div className="project-image-wrapper">
+        <img
+          src="/beachday.jpg"
+          alt="Beach Day project"
+          className="project-image"
+        />
+        <a
+          href="https://github.com/WVU-CS330-2025-01-Group01/beach-day"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          <img
+            src="/github-logo.png"
+            alt="GitHub Repository"
+            className="github-logo-2"
+          />
+        </a>
       </div>
-            )}
+    </div>
+  </div>
+)}
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}
           </div>
         )}

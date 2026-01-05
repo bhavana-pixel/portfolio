@@ -88,9 +88,9 @@ export default function Folder() {
           <strong>1. Quotebook</strong> — AI-Powered Quote Generator
         </p>
         <ul>
-          <li>A web app that allows users to input moods to receive 10 personalized quotes</li>
-          <li>Uses artificial intelligence to analyze input and generate quotes</li>
-          <li>Allows account creation and saving quotes to user profiles</li>
+          <li>A web app that allows users to input moods to receive 10 personalized quotes.</li>
+          <li>Uses artificial intelligence to analyze input and generate quotes.</li>
+          <li>Allows account creation and saving quotes to user profiles.</li>
         </ul>
       </div>
 
@@ -122,9 +122,9 @@ export default function Folder() {
           <strong>2. Beach Day</strong> — Beach Trip Planner
         </p>
         <ul>
-          <li>A tool that allows users to plan their ideal beach trips</li>
-          <li>Retrieves weather, forecasts, and beach information</li>
-          <li>Can save beaches and receive hazard email alerts</li>
+          <li>A tool that allows users to plan their ideal beach trips.</li>
+          <li>Retrieves weather, forecasts, and beach information.</li>
+          <li>Can save beaches and receive hazard email alerts.</li>
           <li> Allows for account creation.</li>
         </ul>
       </div>
@@ -157,10 +157,15 @@ export default function Folder() {
           <strong> 3. Good Ole' Days </strong> - Senior Living Assistant
         </p>
         <ul>
-          <li> A platform that recommends senior-friendly  </li>
-          <li> </li>
+          <li> A platform that recommends senior-friendly <br>
+          </br>communities to seniors looking for places to retire.<br>
+          </br> </li>
+          <li> Seniors can input desired attributes and receive <br></br> 
+               city/town recommendations.</li>
+          <li> Recommendations are based on Principal <br></br>
+              Component Analysis and Proximity Scoring (ML).
+          </li>
         </ul>
-
       </div>
     </div>
 

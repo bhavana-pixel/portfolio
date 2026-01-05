@@ -125,7 +125,7 @@ export default function Folder() {
           <li>A tool that allows users to plan their ideal beach trips</li>
           <li>Retrieves weather, forecasts, and beach information</li>
           <li>Can save beaches and receive hazard email alerts</li>
-          <li> Allows for accoutn creation.</li>
+          <li> Allows for account creation.</li>
         </ul>
       </div>
 
@@ -149,6 +149,21 @@ export default function Folder() {
         </a>
       </div>
     </div>
+
+    {/* Project 3 */}
+     <div className="project-row3">
+      <div className = "project-text">
+        <p>
+          <strong> 3. Good Ole' Days </strong> - Senior Living Assistant
+        </p>
+        <ul>
+          <li> A platform that recommends senior-friendly  </li>
+          <li> </li>
+        </ul>
+
+      </div>
+    </div>
+
   </div>
 )}
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}

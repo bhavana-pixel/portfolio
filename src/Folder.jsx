@@ -72,7 +72,7 @@ export default function Folder() {
                     “For the things we have to learn before we can do them, we learn by doing them.”
                   </p>
                   <p className="author">— Aristotle</p>
-                  <p className="star"> ★</p>
+                  <p className="star-about"> ★ </p>
                 </div>
               </div>
             )}
@@ -172,7 +172,7 @@ export default function Folder() {
         <img
           src="/goodoledays.jpg"
           alt="Good Ole' Days project"
-          className="project-image"
+          className="project-image3"
         />
         <a
           href="https://github.com/steelhacks-2025-devs/main"
@@ -188,6 +188,7 @@ export default function Folder() {
         </a>
       </div>
     </div>
+    <p className="star-projects"> ★ </p>
   </div>
 )}
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}

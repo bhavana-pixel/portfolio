@@ -152,8 +152,8 @@ export default function Folder() {
     </div>
 
     {/* Project 3 */}
-     <div className="project-row3">
-      <div className = "project-text">
+     <div className="project-row">
+      <div className = "project-text3">
         <p>
           <strong> 3. Good Ole' Days </strong> - Senior Living Assistant
         </p>
@@ -168,8 +168,26 @@ export default function Folder() {
           </li>
         </ul>
       </div>
+      <div className="project-image-wrapper">
+        <img
+          src="/goodoledays.jpg"
+          alt="Good Ole' Days project"
+          className="project-image"
+        />
+        <a
+          href="https://github.com/WVU-CS330-2025-01-Group01/beach-day"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          <img
+            src="/github-logo.png"
+            alt="GitHub Repository"
+            className="github-logo-3"
+          />
+        </a>
+      </div>
     </div>
-
   </div>
 )}
             {activeTab === "Experience" && <p>Internships and work experience here...</p>}

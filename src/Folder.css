@@ -129,7 +129,7 @@
 .back-button:hover {
   background: #f3e3fa;
   color: #000;
-  transform: translateY(-3px);
+  transform: scale(1.10);
 
 }
 

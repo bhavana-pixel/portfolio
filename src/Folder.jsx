@@ -175,7 +175,7 @@ export default function Folder() {
           className="project-image"
         />
         <a
-          href="https://github.com/WVU-CS330-2025-01-Group01/beach-day"
+          href="https://github.com/steelhacks-2025-devs/main"
           target="_blank"
           rel="noopener noreferrer"
           className="github-link"

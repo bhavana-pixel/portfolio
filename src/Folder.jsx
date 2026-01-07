@@ -72,7 +72,7 @@ export default function Folder() {
                     “For the things we have to learn before we can do them, we learn by doing them.”
                   </p>
                   <p className="author">— Aristotle</p>
-                  <p className="star-about"> ★ </p>
+                  <p className="star-about"> ★  </p>
                 </div>
               </div>
             )}

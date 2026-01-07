@@ -374,16 +374,18 @@
   position: fixed;
   bottom: 25px;
   left: 50%;
-  font-size: 14px;
+  font-size: 19px;
   animation: starPulse 1.3s infinite ease-in-out;
+  color: rgb(252, 146, 164);
 }
 
 .star-about{
   left:50%;
-  top: 91%;
+  top: 89%;
   position: fixed;
-  font-size: 14px;
+  font-size: 19px;
   animation: starPulse 1.3s infinite ease-in-out;
+  color: rgb(176, 176, 255);
 }
 
 @keyframes starPulse {

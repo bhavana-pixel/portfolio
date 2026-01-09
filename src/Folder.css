@@ -185,9 +185,6 @@
   pointer-events: none;
 }
 
-.paperclip-wrapper.project-note{
-  top: 40%;
-}
 
 .paperclip-wrapper:hover {
   transform: rotate(-4deg) scale(1.02);

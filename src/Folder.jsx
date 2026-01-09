@@ -20,7 +20,7 @@ export default function Folder() {
           <div className="paperclip-wrapper main-note">
           <span className="paperclip">📎</span>
           <div className="clip-note">
-          <br />Click on the GitHub links to see my repositories!
+          <br />Click on the GitHub links to see my repositories! 🔎
         </div>
       </div>
   )}

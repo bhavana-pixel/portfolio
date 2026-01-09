@@ -185,7 +185,6 @@
   pointer-events: none;
 }
 
-
 .paperclip-wrapper:hover {
   transform: rotate(-4deg) scale(1.02);
 }

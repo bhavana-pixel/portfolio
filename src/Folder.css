@@ -180,9 +180,13 @@
     );
 }
 
-.folder-container.shrunk .paperclip-wrapper {
+.folder-container.shrunk .paperclip-wrapper.project-note {
   opacity: 0;
   pointer-events: none;
+}
+
+.paperclip-wrapper.project-note{
+  top: 40%;
 }
 
 .paperclip-wrapper:hover {

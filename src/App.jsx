@@ -21,7 +21,7 @@ export default function App() {
       {showPortfolio && (
         <div className={`page fade-in-overlap ${!loading ? "visible" : ""}`}>
           <div className="title-container">
-            {/* Had to add an extra i so thst the typing title worked lol */}
+            {/* Had to add an extra i so that the typing title worked lol */}
             <TypingTitle text="Hii! I'm Bhavana" speed={90} /> 
           </div>
           <Folder />

@@ -16,7 +16,14 @@ export default function Folder() {
               <br />Click each tab to<br />learn more about me! <br />
             </div>
           </div>
-
+         {activeTab === "Projects" && (
+          <div className="paperclip-wrapper main-note">
+          <span className="paperclip">📎</span>
+          <div className="clip-note">
+          <br />Click on the GitHub links to see my repositories!
+        </div>
+      </div>
+  )}
           <div className="tabs">
             {tabs.map((tab) => (
               <button

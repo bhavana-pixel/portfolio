@@ -40,6 +40,14 @@ export default function Folder() {
         </div>
       </div>
          )}
+         {activeTab === "About" && (
+          <div className="paperclip-wrapper main-note">
+          <span className="paperclip">📎</span>
+          <div className="clip-note">
+          <br />Get to know me! 👩🏽‍💻
+        </div>
+      </div>
+         )}
          
           <div className="tabs">
             {tabs.map((tab) => (

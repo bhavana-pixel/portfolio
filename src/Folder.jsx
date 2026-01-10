@@ -23,7 +23,16 @@ export default function Folder() {
           <br />Click on the GitHub links to see my repositories! 🔎
         </div>
       </div>
-  )}
+         )}
+         {activeTab === "Experience" && (
+          <div className="paperclip-wrapper main-note">
+          <span className="paperclip">📎</span>
+          <div className="clip-note">
+          <br />My journey so far!
+        </div>
+      </div>
+         )}
+         
           <div className="tabs">
             {tabs.map((tab) => (
               <button
@@ -36,6 +45,7 @@ export default function Folder() {
             ))}
           </div>
         </div>
+        
 
         {/* Paper */}
         {activeTab && (

@@ -109,7 +109,24 @@ export default function Folder() {
                 </div>
               </div>
             )}
-            {activeTab === "Resume" && <p>Resume file here...</p>}
+ {activeTab === "Resume" && (
+  <div className="resume-layout">
+    <h3>Resume</h3>
+    <img
+      src="/resume.jpg"
+      alt="Bhavana Resume"
+      className="resume-image"
+    />
+
+    <div className="resume-buttons">
+      <a href="/resume.jpg" download>Download</a>
+      <br></br>
+      <a href="/resume.jpg" target="_blank" rel="noopener noreferrer">
+        Open full size
+      </a>
+    </div>
+  </div>
+)}
 
 {activeTab === "Projects" && (
   <div className="projects-layout">
@@ -225,6 +242,7 @@ export default function Folder() {
   </div>
 )}
             {activeTab === "Experience" && <h3>Relevant Experience</h3>}
+           
           </div>
         )}
       </div>

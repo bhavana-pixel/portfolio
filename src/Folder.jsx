@@ -224,7 +224,7 @@ export default function Folder() {
     <p className="star-projects"> ★ </p>
   </div>
 )}
-            {activeTab === "Experience" && <p>Internships and work experience here...</p>}
+            {activeTab === "Experience" && <h3>Relevant Experience</h3>}
           </div>
         )}
       </div>

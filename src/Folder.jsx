@@ -125,6 +125,7 @@ export default function Folder() {
         Open full size
       </a>
     </div>
+    <p className="star-resume"> ★ </p>
   </div>
 )}
 

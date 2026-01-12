@@ -390,10 +390,10 @@
 
 @keyframes starPulse {
  from {
-    transform: translateX(-50%) rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: translateX(-50%) rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -412,5 +412,17 @@
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   z-index: 1;
 }
+
+.star-resume{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 19px;
+  margin-top: 1px;
+  animation: starPulse 1.3s infinite ease-in-out;
+  color: rgb(246, 196, 153);
+}
+
+
 
 

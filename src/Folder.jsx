@@ -119,11 +119,15 @@ export default function Folder() {
     />
 
     <div className="resume-buttons">
+      <div className="download">
       <a href="/resume.jpg" download>Download</a>
+      </div>
       <br></br>
+      <div className="open">
       <a href="/resume.jpg" target="_blank" rel="noopener noreferrer">
         Open full size
       </a>
+      </div>
     </div>
     <p className="star-resume"> ★ </p>
   </div>

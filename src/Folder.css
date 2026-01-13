@@ -423,6 +423,30 @@
   color: rgb(246, 196, 153);
 }
 
+.download{
+   background: #e2e7fc;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+
+  padding: 6px 10px;
+  border-radius: 6px;
+  z-index:2;
+}
+
+.open{
+   background: #e2e7fc;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+
+  padding: 6px 10px;
+  border-radius: 6px;
+  z-index:3;
+}
+
 
 
 

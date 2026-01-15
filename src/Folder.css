@@ -438,14 +438,45 @@
 .open{
    background: #e2e7fc;
   border: none;
-  font-size: 14px;
+  font-size: 14.5px;
   font-weight: 500;
   cursor: pointer;
 
-  padding: 6px 10px;
+  padding: 12px 20px;
   border-radius: 6px;
   z-index:3;
 }
+
+.download{
+   background: #e2e7fc;
+  border: none;
+  font-size: 14.5px;
+  font-weight: 500;
+  cursor: pointer;
+
+  padding: 12px 20px;
+  border-radius: 6px;
+  z-index:2;
+}
+
+.resume-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 12px;
+}
+
+.download a,
+.open a {
+  text-decoration: none;
+  color: #418ad2;
+  display: block;
+}
+
+
+
+
+
 
 
 

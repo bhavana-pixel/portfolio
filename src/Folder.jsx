@@ -247,6 +247,13 @@ export default function Folder() {
   </div>
 )}
             {activeTab === "Experience" && <h3>Relevant Experience</h3>}
+            <p className = "experience1">
+              <b>1. Undergraduate AI / ML Researcher</b> <br></br>
+              Conducted research in a course under Dr. Choudhury <br></br>
+              examining trust in ChatGPT across demographics and<br></br>
+              collecting individual AI concerns. Devised Random Forest  <br></br>
+              Regression in Python on a dataset of 341 survey responses.
+            </p>
            
           </div>
         )}

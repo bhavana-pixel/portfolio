@@ -3,6 +3,7 @@
   justify-content: center; /* horizontal center */
   align-items: flex-start; /* align top, so it’s just below title */
   gap: 40px;               /* space between folder and paper */
+  min-height: 100vh;
 }
 
 
@@ -482,6 +483,7 @@
 
 .experience1{
   text-align: left;
+  z-index:2;
 }
 
 

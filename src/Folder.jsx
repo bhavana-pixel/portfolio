@@ -256,6 +256,15 @@ export default function Folder() {
                   Devised Random Forest Regression in Python on a <br></br> 
                   dataset of 341 survey responses.
                 </p>
+                <p className="experience2">
+                  <p className = "text2">
+                  <b>2. File & Data Structures Proctor</b> <br />
+                  Selected by my professor to tutor a File &  Data Structures<br></br>
+                  course of 71 students. Provided hands-on support in Java data<br></br>
+                  structures, file table creation, complex code debugging, and <br></br>
+                  teaching key concepts such as hash functions, JSON, and CSV.
+                  </p>
+                </p>
               </div>
             )}
           </div>

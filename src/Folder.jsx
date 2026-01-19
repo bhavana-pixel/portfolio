@@ -268,7 +268,7 @@ export default function Folder() {
                 <p className="experience3">
                   <p className = "text2">
                   <b>3. Artficial Intelligence WVU - Outreach Coordinator</b> <br />
-                  Overseeing guest speakers from companies to hold workshops  <br></br>
+                  Hosting guest speakers from companies to hold workshops  <br></br>
                   focused on machine learning principles and ethical AI. <br></br>
                   Engaging in all AI-focused events covering computer vision,  <br></br>
                   model development in TensorFlow, and ML algorithms.

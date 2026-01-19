@@ -251,10 +251,10 @@ export default function Folder() {
                 <h3>Relevant Experience</h3>
                 <p className="experience1">
                   <b>1. Undergraduate AI / ML Researcher</b> <br />
-                  Conducted research in a course under Dr. Choudhury <br></br>
-                  examining trust in ChatGPT across demographics. <br></br>
-                  Devised Random Forest Regression in Python on a <br></br> 
-                  dataset of 341 survey responses.
+                  Conducted research in a course examining trust <br></br>
+                  in ChatGPT across demographics. Devised Random  <br></br>
+                  Forest Regression in Python on a dataset of 341 <br></br> 
+                  survey responses with a 80 / 20 train test split.
                 </p>
                 <p className="experience2">
                   <p className = "text2">
@@ -263,6 +263,15 @@ export default function Folder() {
                   course of 71 students. Provided hands-on support in Java data<br></br>
                   structures, file table creation, complex code debugging, and <br></br>
                   teaching key concepts such as hash functions, JSON, and CSV.
+                  </p>
+                </p>
+                <p className="experience3">
+                  <p className = "text2">
+                  <b>3. Artficial Intelligence WVU - Outreach Coordinator</b> <br />
+                  Overseeing guest speakers from companies to hold workshops  <br></br>
+                  focused on machine learning principles and ethical AI. <br></br>
+                  Engaging in all AI-focused events covering computer vision,  <br></br>
+                  model development in TensorFlow, and ML algorithms.
                   </p>
                 </p>
               </div>

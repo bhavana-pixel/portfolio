@@ -255,9 +255,9 @@ export default function Folder() {
                     <div className="experience1-text">
                       <p>
                         <b>1. Undergraduate AI / ML Researcher</b><br />
-                        Conducted research in a course examining trust<br />
-                        in ChatGPT across demographics. Devised Random<br />
-                        Forest Regression in Python on a dataset of 341<br />
+                        Conducted research in a course examining trust in <br />
+                        generative AI (ChatGPT) across demographics. Devised <br />
+                        Random Forest Regression in Python on a dataset of 341<br />
                         survey responses with an 80 / 20 train-test split.
                       </p>
                     </div>
@@ -273,7 +273,8 @@ export default function Folder() {
                   </div>
 
                   {/* Experience 2 */}
-                  <div className="experience-block">
+                  <div className="experience2-row">
+                  <div className = "experience2-text">
                     <p>
                       <b>2. File & Data Structures Proctor</b><br />
                       Selected by my professor to tutor a File & Data Structures <br></br>
@@ -282,15 +283,18 @@ export default function Folder() {
                       JSON, and CSV.
                     </p>
                   </div>
+                  </div>
 
                   {/* Experience 3 */}
-                  <div className="experience-block">
+                  <div className="experience3-row">
+                    <div className = "experience3-text">
                     <p>
                       <b>3. Artificial Intelligence WVU — Outreach Coordinator</b><br />
                       Hosted guest speakers and workshops focused on machinebr<br></br>
                       learning principles and ethical AI. Participated in events<br></br>
                       covering computer vision, TensorFlow, and ML algorithms.<br></br>
                     </p>
+                  </div>
                   </div>
                   <p className="star-experience"> ★ </p>
                 </div>

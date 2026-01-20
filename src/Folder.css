@@ -505,11 +505,11 @@
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-.experience2{
+.experience2-row{
   text-align:right;
 }
 
-.experience3{
+.experience3-row{
   text-align: left;
   z-index:2;
 }

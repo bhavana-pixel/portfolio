@@ -227,7 +227,7 @@ export default function Folder() {
         <img
           src="/goodoledays.jpg"
           alt="Good Ole' Days project"
-          className="project-image"
+          className="project-image project-image3"
         />
         <a
           href="https://github.com/steelhacks-2025-devs/main"
@@ -238,7 +238,7 @@ export default function Folder() {
           <img
             src="/github-logo.png"
             alt="GitHub Repository"
-            className="github-logo"
+            className="github-logo-3"
           />
         </a>
       </div>

@@ -247,35 +247,54 @@ export default function Folder() {
   </div>
 )}
 {activeTab === "Experience" && (
-              <div className="experience-layout">
-                <h3>Relevant Experience</h3>
-                <p className="experience1">
-                  <b>1. Undergraduate AI / ML Researcher</b> <br />
-                  Conducted research in a course examining trust <br></br>
-                  in ChatGPT across demographics. Devised Random  <br></br>
-                  Forest Regression in Python on a dataset of 341 <br></br> 
-                  survey responses with a 80 / 20 train test split.
-                </p>
-                <p className="experience2">
-                  <p className = "text2">
-                  <b>2. File & Data Structures Proctor</b> <br />
-                  Selected by my professor to tutor a File &  Data Structures<br></br>
-                  course of 71 students. Provided hands-on support in Java data<br></br>
-                  structures, file table creation, complex code debugging, and <br></br>
-                  teaching key concepts such as hash functions, JSON, and CSV.
-                  </p>
-                </p>
-                <p className="experience3">
-                  <p className = "text2">
-                  <b>3. Artficial Intelligence WVU - Outreach Coordinator</b> <br />
-                  Hosting guest speakers from companies to hold workshops  <br></br>
-                  focused on machine learning principles and ethical AI. <br></br>
-                  Engaging in all AI-focused events covering computer vision,  <br></br>
-                  model development in TensorFlow, and ML algorithms.
-                  </p>
-                </p>
-              </div>
-            )}
+                <div className="experience-layout">
+                  <h3>Relevant Experience</h3>
+
+                  {/* Experience 1 */}
+                  <div className="experience1-row">
+                    <div className="experience1-text">
+                      <p>
+                        <b>1. Undergraduate AI / ML Researcher</b><br />
+                        Conducted research in a course examining trust<br />
+                        in ChatGPT across demographics. Devised Random<br />
+                        Forest Regression in Python on a dataset of 341<br />
+                        survey responses with an 80 / 20 train-test split.
+                      </p>
+                    </div>
+
+                    <div className="experience1-wrapper">
+                      <img
+                        src="/research.jpg"  
+                        alt="AI Research"
+                        className="experience1-image"
+                      />
+                    </div>
+
+                  </div>
+
+                  {/* Experience 2 */}
+                  <div className="experience-block">
+                    <p>
+                      <b>2. File & Data Structures Proctor</b><br />
+                      Selected by my professor to tutor a File & Data Structures <br></br>
+                      course of 71 students. Provided hands-on support in Java<br></br>
+                      data structures, file tables, debugging, hash functions,<br></br>
+                      JSON, and CSV.
+                    </p>
+                  </div>
+
+                  {/* Experience 3 */}
+                  <div className="experience-block">
+                    <p>
+                      <b>3. Artificial Intelligence WVU — Outreach Coordinator</b><br />
+                      Hosted guest speakers and workshops focused on machinebr<br></br>
+                      learning principles and ethical AI. Participated in events<br></br>
+                      covering computer vision, TensorFlow, and ML algorithms.<br></br>
+                    </p>
+                  </div>
+                  <p className="star-experience"> ★ </p>
+                </div>
+              )}
           </div>
         )}
       </div>

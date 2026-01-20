@@ -242,7 +242,7 @@
   text-align: center;
 }
 
-.project-row {
+.project-row, experience1-row{
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -263,7 +263,7 @@
   display: inline-block;
 }
 
-.project-image, .project-image3 {
+.project-image {
   width: 280px;
   border-radius: 8px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
@@ -481,9 +481,13 @@
   background: #f3e3fa;
 }
 
-.experience1{
+.experience1-row{
   text-align: left;
   z-index:2;
+}
+
+.experience1-image{
+  width:200px;
 }
 
 .experience2{

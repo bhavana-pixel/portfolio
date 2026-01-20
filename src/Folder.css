@@ -514,6 +514,16 @@
   z-index:2;
 }
 
+.star-experience{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 19px;
+  margin-top: 1px;
+  animation: starPulse 1.3s infinite ease-in-out;
+  color: rgb(146, 242, 157);
+}
+
 
 
 

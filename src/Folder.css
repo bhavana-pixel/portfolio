@@ -242,7 +242,7 @@
   text-align: center;
 }
 
-.project-row, experience1-row{
+.project-row{
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -481,13 +481,28 @@
   background: #f3e3fa;
 }
 
-.experience1-row{
+.experience1-row {
+  display: flex;
+  align-items: center;
   text-align: left;
-  z-index:2;
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 6%;
 }
 
-.experience1-image{
-  width:200px;
+.experience1-text {
+  flex: 1;
+}
+
+.experience1-wrapper {
+  position: relative;
+}
+
+.experience1-image {
+  width: 200px;
+  border-radius: 8px;
+  border: 4px solid rgb(248, 232, 251);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
 .experience2{

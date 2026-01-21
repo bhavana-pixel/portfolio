@@ -296,7 +296,8 @@ export default function Folder() {
                     </p>
                   </div>
                   </div>
-                  <div className="experience1-wrapper">
+                  
+                  <div className="experience3-wrapper">
                       <img
                         src="/aiwvu.jpg"  
                         alt="Artificial Intelligence WVU Logo"

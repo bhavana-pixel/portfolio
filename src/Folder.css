@@ -548,6 +548,20 @@
   flex: 1;
 }
 
+.experience1-wrapper,
+.experience3-wrapper,
+.project-image-wrapper {
+  position: relative;
+  z-index: 5;
+}
+
+.experience1-image,
+.aiwvu-image,
+.project-image {
+  position: relative;
+  z-index: 5;
+}
+
 
 
 

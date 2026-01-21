@@ -269,41 +269,39 @@ export default function Folder() {
                         className="experience1-image"
                       />
                     </div>
-
                   </div>
 
                   {/* Experience 2 */}
                   <div className="experience2-row">
-                  <div className = "experience2-text">
-                    <p>
-                      <b>2. File & Data Structures Proctor</b><br />
-                      Selected by my professor to tutor a File & Data Structures <br></br>
-                      course of 71 students. Provided hands-on support in Java<br></br>
-                      data structures, file tables, debugging, hash functions,<br></br>
-                      JSON, and CSV.
-                    </p>
-                  </div>
+                    <div className = "experience2-text">
+                      <p>
+                        <b>2. File & Data Structures Proctor</b><br />
+                        Selected by my professor to tutor a File & Data Structures <br></br>
+                        course of 71 students. Provided hands-on support in Java<br></br>
+                        data structures, file tables, debugging, hash functions,<br></br>
+                        JSON, and CSV.
+                      </p>
+                    </div>
                   </div>
 
                   {/* Experience 3 */}
-                  <div className="experience3-row">
-                    <div className = "experience3-text">
+                <div className="experience3-row">
+                  <div className = "experience3-text">
                     <p>
                       <b>3. Artificial Intelligence WVU — Outreach Coordinator</b><br />
                       Hosted guest speakers and workshops focused on machinebr<br></br>
                       learning principles and ethical AI. Participated in events<br></br>
                       covering computer vision, TensorFlow, and ML algorithms.<br></br>
                     </p>
-                  </div>
-                  </div>
-                  
-                  <div className="experience3-wrapper">
+                    <div className="experience3-wrapper">
                       <img
                         src="/aiwvu.jpg"  
                         alt="Artificial Intelligence WVU Logo"
                         className="aiwvu-image"
                       />
                     </div>
+                  </div>
+                </div>
                     <p className="star-experience"> ★ </p>
                 </div>
               )}

@@ -509,9 +509,12 @@
   text-align:right;
 }
 
-.experience3-row{
-  text-align: left;
-  z-index:2;
+.experience3-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 6%;
 }
 
 .star-experience{
@@ -529,10 +532,20 @@
   border-radius: 8px;
   border: 4px solid rgb(248, 232, 251);
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  display:flex;
+  margin-top: 15%;
+  margin-left: 19%;
 }
 
 .experience3-wrapper{
-  position:relative;
+  flex-shrink:0;
+}
+
+.experience3-text {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: 1;
 }
 
 

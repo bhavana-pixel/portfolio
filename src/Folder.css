@@ -548,6 +548,7 @@
 .experience3-text {
   display: flex;
   align-items: center;
+  text-align: left;
   gap: 24px;
   flex: 1;
 }

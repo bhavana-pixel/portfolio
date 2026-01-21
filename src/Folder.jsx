@@ -289,7 +289,7 @@ export default function Folder() {
                   <div className = "experience3-text">
                     <p>
                       <b>3. Artificial Intelligence WVU — Outreach Coordinator</b><br />
-                      Hosted guest speakers and workshops focused on machinebr<br></br>
+                      Hosted guest speakers and workshops focused on machine<br></br>
                       learning principles and ethical AI. Participated in events<br></br>
                       covering computer vision, TensorFlow, and ML algorithms.<br></br>
                     </p>

@@ -296,7 +296,6 @@ export default function Folder() {
                     </p>
                   </div>
                   </div>
-                  <p className="star-experience"> ★ </p>
                   <div className="experience1-wrapper">
                       <img
                         src="/aiwvu.jpg"  
@@ -304,6 +303,7 @@ export default function Folder() {
                         className="aiwvu-image"
                       />
                     </div>
+                    <p className="star-experience"> ★ </p>
                 </div>
               )}
           </div>

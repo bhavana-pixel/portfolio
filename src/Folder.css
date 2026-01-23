@@ -536,7 +536,7 @@
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
   display:flex;
   margin-top: 14%;
-  margin-left: 19%;
+  margin-left: 27%;
   transform: translateX(40px);
   animation: photoFadeIn 0.6s ease-out forwards;
 }

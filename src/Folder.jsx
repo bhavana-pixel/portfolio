@@ -282,6 +282,14 @@ export default function Folder() {
                         JSON, and CSV.
                       </p>
                     </div>
+
+                     <div className="experience2-wrapper">
+                      <img
+                        src="/java.jpg"  
+                        alt="Artificial Intelligence WVU Logo"
+                        className="java-image"
+                      />
+                    </div>
                   </div>
 
                   {/* Experience 3 */}

@@ -488,7 +488,7 @@
   text-align: left;
   gap: 24px;
   width: 100%;
-  margin-bottom: 6%;
+
 }
 
 .experience1-text {
@@ -536,7 +536,6 @@
   border: 4px solid rgb(248, 232, 251);
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
   display:flex;
-  margin-top: 14%;
   margin-left: 27%;
   transform: translateX(40px);
   animation: photoFadeIn 0.6s ease-out forwards;
@@ -570,7 +569,7 @@
 
 .experience2-row {
   display: flex;
-  flex-direction: row-reverse; /* 👈 image left, text right */
+  flex-direction: row-reverse; 
   align-items: center;
   gap: 24px;
   width: 100%;

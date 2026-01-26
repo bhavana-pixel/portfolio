@@ -20,6 +20,26 @@ export default function App() {
     <>
       {showPortfolio && (
         <div className={`page fade-in-overlap ${!loading ? "visible" : ""}`}>
+           {/* 🔗 Social links */}
+    <div className="social-links">
+      <a
+        href="https://github.com/bhavana-pixel"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+      >
+        <img src="/github-logo.png" alt="GitHub" />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/bhavanadakshinamoorthy/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+      >
+        <img src="/linkedin.jpg" alt="LinkedIn" />
+      </a>
+    </div>
           <div className="title-container">
             {/* Had to add an extra i so that the typing title worked lol */}
             <TypingTitle text="Hii! I'm Bhavana" speed={90} /> 

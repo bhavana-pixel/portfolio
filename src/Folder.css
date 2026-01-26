@@ -592,6 +592,27 @@
   animation: photoFadeIn 0.6s ease-out forwards;
 }
 
+.social-links {
+  position: fixed;
+  top: 18px;
+  right: 22px;
+  display: flex;
+  gap: 14px;
+  z-index: 9999;
+}
+
+.social-links img {
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.12);
+  opacity: 0.85;
+}
+
 
 
 

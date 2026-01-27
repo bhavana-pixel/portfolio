@@ -626,13 +626,13 @@
 }
 
 .social-links img:hover{
-  animation: glow 1.2s infinite;
+  animation: glow 1.1s infinite;
 }
 
 @keyframes glow {
-  0%   { box-shadow: 0 0 0px rgba(255, 0, 208, 0.993); }
-  50%  { box-shadow: 0 0 14px rgb(245, 10, 183); }
-  100% { box-shadow: 0 0 0px rgba(255, 103, 212, 0.934); }
+  0%   { box-shadow: 0 0 0px rgb(0, 94, 189); }
+  50%  { box-shadow: 0 0 14px rgb(10, 65, 245); }
+  100% { box-shadow: 0 0 0px rgba(103, 171, 255, 0.934); }
 }
 
 

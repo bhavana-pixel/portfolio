@@ -593,6 +593,15 @@
   animation: photoFadeIn 0.6s ease-out forwards;
 }
 
+/* Rounded Images */
+.project-image,
+.experience1-image,
+.aiwvu-image,
+.java-image {
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
 .social-links {
   position: fixed;
   top: 18px;
@@ -672,23 +681,3 @@
     margin-top: 16px;
   }
 }
-
-/* Rounded Images */
-.project-image,
-.experience1-image,
-.aiwvu-image,
-.java-image {
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
-}
-
-
-
-
-
-
-
-
-
-
-

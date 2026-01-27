@@ -636,6 +636,7 @@
   100% { box-shadow: 0 0 0px rgba(103, 171, 255, 0.934); }
 }
 
+/* Making website mobile-friendly */
 @media (max-width: 768px) {
   .folder-page-wrapper {
     flex-direction: column;

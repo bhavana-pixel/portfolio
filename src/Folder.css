@@ -657,6 +657,28 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .folder-page-wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .folder-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tabs {
+
+    white-space: nowrap;
+    padding-bottom: 6px;
+  }
+
+  .tab {
+    flex-shrink: 0;
+    font-size: 14px;
+  }
 }
 
 

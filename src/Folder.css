@@ -626,6 +626,7 @@
   }
 }
 
+/* Added glow to linkedin and github links */
 .social-links img:hover{
   animation: glow 1.1s infinite;
 }

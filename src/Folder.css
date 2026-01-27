@@ -686,6 +686,14 @@
   }
 }
 
+.project-image,
+.experience1-image,
+.aiwvu-image,
+.java-image {
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
 
 
 

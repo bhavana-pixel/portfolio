@@ -39,6 +39,14 @@ export default function App() {
       >
         <img src="/linkedin.jpg" alt="LinkedIn" />
       </a>
+
+      <a 
+        href = "mailto:bhavana0412@hotmail.com"
+        aria-label="Mail"
+      >
+        <img src = "/mail.png"  alt="Email"/>
+      </a>
+
     </div>
           <div className="title-container">
             {/* Had to add an extra i so that the typing title worked lol */}

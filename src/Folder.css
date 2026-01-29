@@ -731,5 +731,5 @@
 
 .terminal-loader {
   position: relative;
-  padding-bottom: 80px; /* 👈 space for skip button */
+  padding-bottom: 80px; 
 }

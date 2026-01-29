@@ -702,7 +702,7 @@
 .skip-button {
   position: absolute;
   bottom: 10%;
-  left: 50%;
+  left: 48.8%;
   transform: translateX(-50%);
 
   z-index: 10; /* 👈 important */

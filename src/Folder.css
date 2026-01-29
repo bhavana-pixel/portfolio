@@ -682,3 +682,54 @@
     margin-top: 16px;
   }
 }
+
+.skip-button {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.12);
+  color: #e6edff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  border-radius: 12px;
+  font-size: 13px;
+  cursor: pointer;
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skip-button {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: 10; /* 👈 important */
+
+  background: rgba(255, 255, 255, 0.12);
+  color: #e6edff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  cursor: pointer;
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.skip-button:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+.terminal-loader {
+  position: relative;
+  padding-bottom: 80px; /* 👈 space for skip button */
+}

@@ -16,8 +16,17 @@ export default function TerminalLoader({ onFinish }) {
   const [stepIndex, setStepIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
+  const [skipped, setSkipped] = useState(false);
+
+  const handleSkip = () => {
+    setSkipped(true);
+    setFadeOut(true);
+    setTimeout(onFinish, 300);
+  };
 
   useEffect(() => {
+    if (skipped) return;
+
     if (stepIndex >= buildSteps.length) {
       setFadeOut(true);              // start fade
       const timer = setTimeout(onFinish, 800); // after fade, callback
@@ -61,8 +70,17 @@ export default function TerminalLoader({ onFinish }) {
           {line}
         </p>
       ))}
-      {currentText && (
-        <p className="terminal-line">{currentText}<span className="cursor">█</span></p>
+      {currentText && !skipped && (
+        <p className="terminal-line">
+          {currentText}
+          <span className="cursor">█</span>
+        </p>
+      )}
+
+      {!fadeOut && (
+        <button className="skip-button" onClick={handleSkip}>
+          Skip intro →
+        </button>
       )}
     </div>
   );

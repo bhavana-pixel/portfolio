@@ -625,6 +625,7 @@
   transform: scale(1.12);
 }
 
+/* Glow animation. */
 @keyframes glow {
   0%   { box-shadow: 0 0 0px rgb(253, 194, 92); }
   50%  { box-shadow: 0 0 14px rgb(253, 236, 92); }

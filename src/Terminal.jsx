@@ -79,7 +79,7 @@ export default function TerminalLoader({ onFinish }) {
 
       {!fadeOut && (
         <button className="skip-button" onClick={handleSkip}>
-          Skip intro →
+          Skip animation →
         </button>
       )}
     </div>

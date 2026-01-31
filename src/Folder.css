@@ -27,7 +27,7 @@
 }
 
 .folder-container.shrunk {
-  width: 375px;      /* shrink width */
+  width: 375px;      
   min-height: 225px; /* shrink height */
   padding: 20px;
 }

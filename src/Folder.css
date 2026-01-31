@@ -9,7 +9,7 @@
 
 .folder-wrapper {
   display: flex;
-  align-items: center;      /* vertical center */
+  align-items: center;     
   gap: 40px;                /* space between folder and paper */
   justify-content: center;  /* center as a group */
 }

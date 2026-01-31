@@ -75,7 +75,7 @@
 .paper::before {
   content: "";
   position: absolute;
-  top: 50px; /* start a little below top */
+  top: 50px; 
   left: 0;
   width: 100%;
   height: 100%;

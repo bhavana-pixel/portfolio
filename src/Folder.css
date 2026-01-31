@@ -705,7 +705,7 @@
   left: 48.8%;
   transform: translateX(-50%);
 
-  z-index: 10; /* 👈 important */
+  z-index: 10; 
 
   background: rgba(255, 255, 255, 0.12);
   color: #e6edff;

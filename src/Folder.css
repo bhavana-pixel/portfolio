@@ -50,6 +50,7 @@
   font-family: "Outfit", sans-serif;
 }
 
+/* When folder tab is clicked */
 .tab.active {
   background-color: #fff8dc;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);

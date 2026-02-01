@@ -4,8 +4,8 @@
   align-items: flex-start; 
   gap: 40px;              
   min-height: 100vh;
+  padding: 40px 16px;
 }
-
 
 .folder-wrapper {
   display: flex;

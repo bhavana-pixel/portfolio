@@ -391,6 +391,7 @@
   color: rgb(176, 176, 255);
 }
 
+/* Star animation */
 @keyframes starPulse {
  from {
     transform: rotate(0deg);

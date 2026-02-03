@@ -384,7 +384,7 @@
 
 .star-about{
   left:50%;
-  top: 89%;
+  top: 91%;
   position: fixed;
   font-size: 19px;
   animation: starPulse 1.3s infinite ease-in-out;
@@ -683,7 +683,7 @@
 
   .star-projects,
   .star-about {
-    margin-top: 16px;
+    margin-top: 30px;
   }
 }
 

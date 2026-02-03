@@ -101,14 +101,7 @@ export default function Folder() {
                     </div>
   
                   </div>
-                  {/* SKILLS */}
-                  <p className="skills">
-                    <b>Languages:</b> Java, Python, C, SQL, JavaScript, HTML, CSS, R <br></br>
-                    <b>Frameworks:</b> React, Flask, Node.js, Express.js, TailwindCSS, JUnit<br></br>
-                    <b>Developer Tools:</b> Docker, Azure, Anaconda, Git, GitHub, VS Code, Eclipse<br></br>
-                    <b>ML Libraries:</b> Scikit-Learn, pandas, NumPy, Matplotlib<br></br>
-                  </p>
-                  {/* SKILLS */}
+                  
 
                   <p className="quote">
                     “For the things we have to learn before we can do them, we learn by doing them.”
@@ -318,7 +311,14 @@ export default function Folder() {
                       />
                     </div>
                   </div>
+                  
                 </div>
+                    <p className = "skills">
+                      <b>Languages</b>: Java, Python, C, SQL, JavaScript, HTML, CSS, R <br></br>
+                      <b>Frameworks</b>: React, Flask, Node.js, Express.js, TailwindCSS, JUnit <br></br>
+                      <b>Developer Tools</b>: Docker, Azure, Anaconda, Git, GitHub, VS Code, Eclipse<br></br>
+                      <b>ML Libraries</b>: Scikit-Learn, pandas, NumPy, Matplotlib
+                    </p>
                     <p className="star-experience"> ★ </p>
                 </div>
               )}

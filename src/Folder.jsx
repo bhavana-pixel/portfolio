@@ -313,12 +313,27 @@ export default function Folder() {
                   </div>
                   
                 </div>
-                    <p className = "skills">
-                      <b>Languages</b>: Java, Python, C, SQL, JavaScript, HTML, CSS, R <br></br>
-                      <b>Frameworks</b>: React, Flask, Node.js, Express.js, TailwindCSS, JUnit <br></br>
-                      <b>Developer Tools</b>: Docker, Azure, Anaconda, Git, GitHub, VS Code, Eclipse<br></br>
-                      <b>ML Libraries</b>: Scikit-Learn, pandas, NumPy, Matplotlib
-                    </p>
+                    <div className="skills">
+                      <div className="skill-group">
+                        <span className="skill-title">Languages</span>
+                        <span>Java, Python, C, SQL, JavaScript, HTML, CSS, R</span>
+                      </div>
+
+                      <div className="skill-group">
+                        <span className="skill-title">Frameworks</span>
+                        <span>React, Flask, Node.js, Express.js, TailwindCSS, JUnit</span>
+                      </div>
+
+                      <div className="skill-group">
+                        <span className="skill-title">Developer Tools</span>
+                        <span>Docker, Azure, Anaconda, Git, GitHub, VS Code, Eclipse</span>
+                      </div>
+
+                      <div className="skill-group">
+                        <span className="skill-title">ML Libraries</span>
+                        <span>Scikit-Learn, pandas, NumPy, Matplotlib</span>
+                      </div>
+                    </div>
                     <p className="star-experience"> ★ </p>
                 </div>
               )}

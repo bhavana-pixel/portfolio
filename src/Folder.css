@@ -757,3 +757,17 @@
   position: relative;
   padding-bottom: 80px; 
 }
+
+.skills {
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px dashed rgba(145, 3, 163, 0.347);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.skill-title {
+  font-weight: 600;
+  color: #7a5400;
+  white-space: nowrap;
+}

@@ -686,6 +686,10 @@
   }
 }
 
+.star-about{
+  margin-top: 10px;
+}
+
 @media (max-width: 1100px) {
   .folder-container {
     max-width: 520px;

@@ -465,6 +465,7 @@
   z-index:2;
 }
 
+/* Download and View Button. */
 .resume-buttons {
   display: flex;
   justify-content: center;

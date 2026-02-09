@@ -441,6 +441,7 @@
   z-index:2;
 }
 
+/* Folder open */
 .open{
    background: #e2e7fc;
   border: none;

@@ -418,6 +418,7 @@
   z-index: 1;
 }
 
+/* Moving star on resume */
 .star-resume{
   display: flex;
   justify-content: center;

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./Terminal.css";
 
 export default function TerminalLoader({ onFinish }) {
+  /* Animation statements. */
   const buildSteps = [
     "cd portfolio",
     "npm install",

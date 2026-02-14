@@ -311,7 +311,8 @@ export default function Folder() {
                       />
                     </div>
                   </div>
-                  
+                
+                {/* Skills List */}
                 </div>
                     <div className="skills">
                       <div className="skill-group">

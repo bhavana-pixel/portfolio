@@ -29,6 +29,7 @@
   color: #ff4d4d;
 }
 
+/* Terminal Cursor */
 .cursor {
   display: inline-block;
   width: 10px;

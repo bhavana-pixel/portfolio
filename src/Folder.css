@@ -131,6 +131,7 @@
     transform 0.15s ease;
 }
 
+/* Styling for back button upon hover */
 .back-button:hover {
   background: #f3e3fa;
   color: #000;

@@ -61,6 +61,7 @@ export default function TerminalLoader({ onFinish }) {
     }
   }, [charIndex, stepIndex, buildSteps, onFinish]);
 
+  /* Return terminal loader */
   return (
     <div className={`terminal-loader ${fadeOut ? "fade-out" : ""}`}>
       {lines.map((line, index) => (

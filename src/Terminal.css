@@ -36,6 +36,7 @@
   animation: blink 1s step-start infinite;
 }
 
+/* Blinking terminal cursor */
 @keyframes blink {
   50% { opacity: 0; }
 }

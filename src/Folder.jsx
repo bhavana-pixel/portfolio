@@ -17,6 +17,7 @@ export default function Folder() {
               <br />Click each tab to<br />learn more about me! <br />
             </div>
           </div>
+          {/* Projects Tab */}
          {activeTab === "Projects" && (
           <div className="paperclip-wrapper main-note">
           <span className="paperclip">📎</span>

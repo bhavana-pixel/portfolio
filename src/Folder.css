@@ -765,6 +765,7 @@
     box-shadow 0.2s ease;
 }
 
+/* Hover over skip button */
 .skip-button:hover {
   transform: translateX(-50%) scale(1.05);
 }

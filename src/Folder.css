@@ -738,6 +738,7 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Skip animation button styling */
 .skip-button {
   position: absolute;
   bottom: 10%;

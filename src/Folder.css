@@ -768,6 +768,7 @@
   transform: translateX(-50%) scale(1.05);
 }
 
+/* Terminal loading screen */
 .terminal-loader {
   position: relative;
   padding-bottom: 80px; 

@@ -228,6 +228,7 @@
   background-color: rgb(248, 232, 251);
 }
 
+/* Photo image */
 .photo-wrapper {
   display: flex;
   justify-content: flex-start; 

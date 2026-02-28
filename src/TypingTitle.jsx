@@ -5,9 +5,9 @@ export default function TypingTitle({ text = "", speed = 100 }) {
   const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {
-    if (!text) return; // safeguard
+    if (!text) return;
 
-    setDisplayedText(""); // reset when text changes
+    setDisplayedText(""); 
     let index = 0;
 
     const interval = setInterval(() => {

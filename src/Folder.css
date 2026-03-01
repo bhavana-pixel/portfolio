@@ -294,6 +294,7 @@
   
 }
 
+/* Project image hover */
 .project-image:hover, .github-logo:hover {
   transform: scale(1.03);
 }

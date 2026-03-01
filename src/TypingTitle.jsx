@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
+/* Opening Function */
 export default function TypingTitle({ text = "", speed = 100 }) {
   const [displayedText, setDisplayedText] = useState("");
 

@@ -21,7 +21,7 @@ export default function TypingTitle({ text = "", speed = 100 }) {
       }
     }, speed);
 
-    return () => clearInterval(interval);
+    return () => clearInterval(interval); // After 3 seconds, clear the typing bar.
   }, [text, speed]);
 
  return (

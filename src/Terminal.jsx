@@ -31,7 +31,7 @@ export default function TerminalLoader({ onFinish }) {
 
     if (stepIndex >= buildSteps.length) {
       setFadeOut(true);              // start fade
-      const timer = setTimeout(onFinish, 800); // after fade, callback
+      const timer = setTimeout(onFinish, 800); 
       return () => clearTimeout(timer);
     }
 

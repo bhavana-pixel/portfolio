@@ -1,3 +1,5 @@
+// To run server : npm run dev
+
 import { useState } from "react";
 import Folder from "./Folder";
 import TerminalLoader from "./Terminal";

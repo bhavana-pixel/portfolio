@@ -128,7 +128,7 @@ export default function Folder() {
       </div>
       <br></br>
       <div className="open">
-      <a href="/resume.jpg" target="_blank" rel="noopener noreferrer">
+      <a href={`${import.meta.env.BASE_URL}resume.jpg`}  target="_blank" rel="noopener noreferrer">
         Open full size
       </a>
       </div>

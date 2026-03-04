@@ -117,7 +117,7 @@ export default function Folder() {
   <div className="resume-layout">
     <h3>Resume</h3>
     <img
-      src="/resume.jpg"
+      src={`${import.meta.env.BASE_URL}resume.jpg`}
       alt="Bhavana Resume"
       className="resume-image"
     />

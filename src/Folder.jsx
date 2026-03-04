@@ -124,7 +124,7 @@ export default function Folder() {
 
     <div className="resume-buttons">
       <div className="download">
-      <a href="/resume.jpg" download>Download</a>
+      <a href={`${import.meta.env.BASE_URL}resume.jpg`} download>Download</a>
       </div>
       <br></br>
       <div className="open">

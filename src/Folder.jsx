@@ -96,7 +96,7 @@ export default function Folder() {
 
                     <div className="photo-wrapper">
                       <img
-                        src="/me.jpg"
+                        src="me.jpg"
                         alt="Bhavana"
                         className="about-photo"
                       />

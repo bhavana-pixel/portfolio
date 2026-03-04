@@ -167,7 +167,7 @@ export default function Folder() {
           className="github-link"
         >
           <img
-            src="/github-logo.png"
+            src={`${import.meta.env.BASE_URL}github-logo.png`}
             alt="GitHub Repository"
             className="github-logo"
           />
@@ -202,7 +202,7 @@ export default function Folder() {
           className="github-link"
         >
           <img
-            src="/github-logo.png"
+            src={`${import.meta.env.BASE_URL}github-logo.png`}
             alt="GitHub Repository"
             className="github-logo-2"
           />
@@ -240,7 +240,7 @@ export default function Folder() {
           className="github-link"
         >
           <img
-            src="/github-logo.png"
+            src={`${import.meta.env.BASE_URL}github-logo.png`}
             alt="GitHub Repository"
             className="github-logo-3"
           />

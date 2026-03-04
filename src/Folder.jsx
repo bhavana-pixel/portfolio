@@ -156,7 +156,7 @@ export default function Folder() {
 
       <div className="project-image-wrapper">
         <img
-          src="/quotebook.jpg"
+          src={`${import.meta.env.BASE_URL}quotebook.jpg`}
           alt="Quotebook project"
           className="project-image"
         />
@@ -191,7 +191,7 @@ export default function Folder() {
 
       <div className="project-image-wrapper">
         <img
-          src="/beachday.jpg"
+          src={`${import.meta.env.BASE_URL}beachday.jpg`}
           alt="Beach Day project"
           className="project-image"
         />
@@ -229,7 +229,7 @@ export default function Folder() {
       </div>
       <div className="project-image-wrapper">
         <img
-          src="/goodoledays.jpg"
+          src={`${import.meta.env.BASE_URL}goodoledays.jpg`}
           alt="Good Ole' Days project"
           className="project-image project-image3"
         />
@@ -268,7 +268,7 @@ export default function Folder() {
 
                     <div className="experience1-wrapper">
                       <img
-                        src="/research.jpg"  
+                        src={`${import.meta.env.BASE_URL}research.jpg`}
                         alt="AI Research"
                         className="experience1-image"
                       />
@@ -289,7 +289,7 @@ export default function Folder() {
 
                      <div className="experience2-wrapper">
                       <img
-                        src="/java.jpg"  
+                        src={`${import.meta.env.BASE_URL}java.jpg`} 
                         alt="Artificial Intelligence WVU Logo"
                         className="java-image"
                       />
@@ -307,7 +307,7 @@ export default function Folder() {
                     </p>
                     <div className="experience3-wrapper">
                       <img
-                        src="/aiwvu.jpg"  
+                        src={`${import.meta.env.BASE_URL}aiwvu.jpg`}  
                         alt="Artificial Intelligence WVU Logo"
                         className="aiwvu-image"
                       />

@@ -30,7 +30,7 @@ export default function App() {
         rel="noopener noreferrer"
         aria-label="GitHub"
       >
-        <img src="/github-logo.png" alt="GitHub" />
+        <img src={`${import.meta.env.BASE_URL}github-logo.png`} alt="GitHub" />
       </a>
 
       <a
@@ -39,14 +39,14 @@ export default function App() {
         rel="noopener noreferrer"
         aria-label="LinkedIn"
       >
-        <img src="/linkedin.jpg" alt="LinkedIn" />
+        <img src={`${import.meta.env.BASE_URL}linkedin.jpg`} alt="LinkedIn" />
       </a>
 
       <a 
         href = "mailto:bhavana0412@hotmail.com"
         aria-label="Mail"
       >
-        <img src = "/mail.png"  alt="Email"/>
+        <img src = {`${import.meta.env.BASE_URL}mail.png`}  alt="Email"/>
       </a>
 
     </div>

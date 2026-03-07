@@ -38,6 +38,7 @@ export default function TerminalLoader({ onFinish }) {
     const currentLine = buildSteps[stepIndex];
     const isErrorLine = currentLine.startsWith("npm error");
 
+    // Iterate
     if (!isErrorLine) {
       if (charIndex < currentLine.length) {
         const timeout = setTimeout(() => {

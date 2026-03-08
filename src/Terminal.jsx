@@ -20,6 +20,7 @@ export default function TerminalLoader({ onFinish }) {
   const [fadeOut, setFadeOut] = useState(false);
   const [skipped, setSkipped] = useState(false);
 
+  /* Skip terminal */
   const handleSkip = () => {
     setSkipped(true);
     setFadeOut(true);

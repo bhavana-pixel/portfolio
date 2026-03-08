@@ -46,6 +46,7 @@ export default function TerminalLoader({ onFinish }) {
           setCurrentText((prev) => prev + currentLine[charIndex]);
           setCharIndex((prev) => prev + 1);
         }, 55);
+        // Clear Timeout
         return () => clearTimeout(timeout);
       } else {
         setLines((prev) => [...prev, currentLine]);

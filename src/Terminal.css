@@ -17,6 +17,7 @@
   transition: opacity 0.6s ease;
 }
 
+/* Loading Terminal */
 .terminal-loader.fade-out {
   opacity: 0;
 }

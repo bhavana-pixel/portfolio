@@ -121,6 +121,8 @@ export default function Folder() {
  {activeTab === "Resume" && (
   <div className="resume-layout">
     <h3>Resume</h3>
+
+    {/* Changed pic URL to deploy */}
     <img
       src={`${import.meta.env.BASE_URL}resume.jpg`}
       alt="Bhavana Resume"
@@ -133,7 +135,7 @@ export default function Folder() {
       </div>
       <br></br>
       <div className="open">
-        
+
       {/* Changed pic URL to deploy */}
       <a href={`${import.meta.env.BASE_URL}resume.jpg`}  target="_blank" rel="noopener noreferrer">
         Open full size

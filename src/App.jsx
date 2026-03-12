@@ -44,6 +44,7 @@ export default function App() {
         <img src={`${import.meta.env.BASE_URL}linkedin.jpg`} alt="LinkedIn" />
       </a>
 
+      {/* Email link */}
       <a 
         href = "mailto:bhavana0412@hotmail.com"
         aria-label="Mail"

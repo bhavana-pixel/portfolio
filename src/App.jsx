@@ -23,6 +23,8 @@ export default function App() {
         <div className={`page fade-in-overlap ${!loading ? "visible" : ""}`}>
            {/* 🔗 Social links */}
     <div className="social-links">
+      
+      {/* Github URL */}
       <a
         href="https://github.com/bhavana-pixel"
         target="_blank"

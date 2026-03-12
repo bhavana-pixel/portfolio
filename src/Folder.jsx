@@ -160,6 +160,8 @@ export default function Folder() {
           alt="Quotebook project"
           className="project-image"
         />
+
+        {/* Github URL */}
         <a
           href="https://github.com/quote-generator-devs/quote-generator"
           target="_blank"

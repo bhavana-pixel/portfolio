@@ -1,5 +1,4 @@
 // To run server : npm run dev
-
 import { useState } from "react";
 import Folder from "./Folder";
 import TerminalLoader from "./Terminal";
@@ -9,7 +8,7 @@ import TypingTitle from "./TypingTitle";
 export default function App() {
   const [loading, setLoading] = useState(true);    // terminal visible
   const [showPortfolio, setShowPortfolio] = useState(false); // portfolio mounted
-
+  
   const handleFinish = () => {
     // Start fading out terminal
     setLoading(false);
@@ -32,7 +31,8 @@ export default function App() {
       >
         <img src={`${import.meta.env.BASE_URL}github-logo.png`} alt="GitHub" />
       </a>
-
+      
+      {/* Linkedin URL */}
       <a
         href="https://www.linkedin.com/in/bhavanadakshinamoorthy/"
         target="_blank"

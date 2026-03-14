@@ -131,6 +131,7 @@ export default function Folder() {
 
     <div className="resume-buttons">
       <div className="download">
+      {/* Changed pic URL to deploy */}
       <a href={`${import.meta.env.BASE_URL}resume.jpg`} download>Download</a>
       </div>
       <br></br>

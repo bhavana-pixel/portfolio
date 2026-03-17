@@ -387,6 +387,7 @@
   list-style-position: inside;
 }
 
+/* Photo animation */
 @keyframes photoFadeIn{
   to{
     opacity: 1;

@@ -341,7 +341,7 @@ export default function Folder() {
 
                       <div className="skill-group">
                         <span className="skill-title">Developer Tools: </span>
-                        <span>Docker, Azure, Anaconda, Git, GitHub, VS Code, Eclipse</span>
+                        <span>Docker, Azure, Anaconda, Git, GitHub, GitHub Actions, CI/CD, VS Code, Eclipse</span>
                       </div>
 
                       <div className="skill-group">

@@ -28,6 +28,7 @@ export default function TerminalLoader({ onFinish }) {
     setTimeout(onFinish, 300);
   };
 
+  /* Function entry point */
   useEffect(() => {
     if (skipped) return;
 

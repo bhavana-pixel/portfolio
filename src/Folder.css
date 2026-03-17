@@ -326,6 +326,7 @@
   transition: transform 0.2s;
 }
 
+/* Alternating rows */
 .project-row-reverse{
   flex-direction: row-reverse;
   justify-content: flex-end;

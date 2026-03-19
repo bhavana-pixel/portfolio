@@ -1,11 +1,11 @@
 {/* Import Statements */ }
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Folder.css";
 
 export default function Folder() {
   const [activeTab, setActiveTab] = useState(null);
   const tabs = ["About", "Resume", "Projects", "Experience"];
-
+  
   return (
     <div className="folder-page-wrapper">
       <div className="folder-wrapper">

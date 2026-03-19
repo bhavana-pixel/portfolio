@@ -58,7 +58,7 @@ export default function Folder() {
               <button
                 key={tab}
                 className={`tab ${activeTab === tab ? "active" : ""}`}
-                onClick={() => setActiveTab(tab)}
+                 onClick={() => setActiveTab(activeTab === tab ? null : tab)}
               >
                 {tab}
               </button>

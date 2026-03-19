@@ -507,6 +507,7 @@
   display: block;
 }
 
+/* Hover styling */
 .download:hover,
 .open:hover {
   transform: translateY(-1px);

@@ -355,6 +355,9 @@ export default function Folder() {
           </div>
         )}
       </div>
+      <p className="footer-signature">
+        © {new Date().getFullYear()} Bhavana Dakshinamoorthy <span className="stars">⋆˙⟡</span>
+      </p>
     </div>
   );
 }

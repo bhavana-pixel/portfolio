@@ -5,6 +5,9 @@
   gap: 40px;              
   min-height: 100vh;
   padding: 40px 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .folder-wrapper {
@@ -809,4 +812,43 @@
   font-weight: 600;
   color: rgb(105, 165, 243);
   white-space: nowrap;
+}
+
+.footer-signature {
+  font-size: 0.75rem;
+  color: #ffffff;
+  margin-top: auto;
+  width: 100%;
+  text-align: center; /* 👈 centers text */
+  padding: 10px 0;
+  text-shadow: 0 0 6px rgba(249, 95, 159, 0.5);
+}
+
+.footer-signature:hover {
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.stars {
+  color: #ffffff; /* soft pink */
+  font-size: 0.9rem;
+}
+
+.stars {
+  color: #f8c8dc;
+  font-size: 0.9rem;
+  display: inline-block;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

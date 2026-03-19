@@ -65,6 +65,7 @@
   width: 700px;
   min-height: 450px;
   background: #fffdf5; 
+  border: 10px solid #f7daef;
   padding: 30px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -340,7 +341,7 @@
 .project-row {
   align-items: center;
   margin-bottom: 6%;
-}
+} 
   
 .project-text ul {
   margin: 0;            

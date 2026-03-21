@@ -519,13 +519,13 @@
   background: #f3e3fa;
 }
 
+/* Experience 1 positioning */
 .experience1-row {
   display: flex;
   align-items: center;
   text-align: left;
   gap: 24px;
   width: 100%;
-
 }
 
 .experience1-text {

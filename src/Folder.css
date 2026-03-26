@@ -429,6 +429,7 @@
   }
 }
 
+/* Resume tab positioning */
 .resume-layout {
   display: flex;
   flex-direction: column;

@@ -746,6 +746,7 @@
   }
 }
 
+/* Terminal skip button */
 .skip-button {
   position: absolute;
   background: rgba(255, 255, 255, 0.12);

@@ -49,6 +49,7 @@ html, body {
   color: #888;
 }
 
+/* Page poitioning */
 .page {
   display: flex;
   flex-direction: column;

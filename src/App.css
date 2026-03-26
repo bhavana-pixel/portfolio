@@ -53,7 +53,7 @@ html, body {
 .page {
   display: flex;
   flex-direction: column;
-  align-items: center;      /* horizontally center title + folder */
+  align-items: center;      
   gap: 20px;                /* smaller space between title and folder */
   padding-top: 40px;        /* distance from top of viewport */
   min-height: 100vh;        /* optional */

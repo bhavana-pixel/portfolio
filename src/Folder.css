@@ -10,6 +10,7 @@
   flex-direction: column;
 }
 
+/* Folder wrapper */
 .folder-wrapper {
   display: flex;
   align-items: center;     

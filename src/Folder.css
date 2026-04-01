@@ -340,6 +340,7 @@
   display: flex;
 }
 
+/* Project row positioning */
 .project-row-reverse .project-text{
   text-align:right;
 }

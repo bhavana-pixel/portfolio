@@ -35,6 +35,7 @@ export default function Folder() {
               </div>
             </div>
           )}
+          {/* Resume - update here when needed */}
           {activeTab === "Resume" && (
             <div className="paperclip-wrapper main-note">
               <span className="paperclip">📎</span>

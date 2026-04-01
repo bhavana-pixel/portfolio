@@ -55,6 +55,7 @@ export default function Folder() {
             </div>
           )}
 
+          {/* Tabs */}
           <div className="tabs">
             {tabs.map((tab) => (
               <button

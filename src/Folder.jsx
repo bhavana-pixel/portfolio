@@ -125,6 +125,7 @@ export default function Folder() {
             {activeTab === "Resume" && (
               <div className="resume-layout">
                 <h3>Resume</h3>
+                
                 {/* Changed pic URL to deploy */}
                 <img
                   src={`${import.meta.env.BASE_URL}resume.jpg`}

@@ -73,7 +73,7 @@ export default function Folder() {
         </div>
 
 
-        {/* Papers */}
+        {/* Paper */}
         {activeTab && (
           <div className="paper">
             {/* Back button */}

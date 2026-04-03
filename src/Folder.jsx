@@ -81,7 +81,7 @@ export default function Folder() {
               ← Back
             </button>
 
-            {/* About Tab */}
+            {/* About Tab Content. */}
             {activeTab === "About" && (
               <div className="about-layout">
                 <div className="about-text">

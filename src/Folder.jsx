@@ -113,10 +113,7 @@ export default function Folder() {
                         className="about-photo"
                       />
                     </div>
-
                   </div>
-
-
                   <p className="quote">
                     “For the things we have to learn before we can do them, we learn by doing them.”
                   </p>

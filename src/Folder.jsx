@@ -211,6 +211,7 @@ export default function Folder() {
                       alt="Beach Day project"
                       className="project-image"
                     />
+                    {/* Github URL */}
                     <a
                       href="https://github.com/WVU-CS330-2025-01-Group01/beach-day"
                       target="_blank"

@@ -205,6 +205,7 @@ export default function Folder() {
                     </ul>
                   </div>
 
+                  {/* Project Image Positioning */}
                   <div className="project-image-wrapper">
                     <img
                       src={`${import.meta.env.BASE_URL}beachday.jpg`}

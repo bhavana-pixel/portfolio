@@ -268,6 +268,8 @@ export default function Folder() {
                 <p className="star-projects"> ★ </p>
               </div>
             )}
+
+            {/* Experiences */}
             {activeTab === "Experience" && (
               <div className="experience-layout">
                 <h3>Relevant Experience</h3>

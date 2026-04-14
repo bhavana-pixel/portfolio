@@ -7,6 +7,8 @@ import TypingTitle from "./TypingTitle";
 
 // App starting point
 export default function App() {
+
+  // Variables
   const [loading, setLoading] = useState(true);    // terminal visible
   const [showPortfolio, setShowPortfolio] = useState(false); // portfolio mounted
   

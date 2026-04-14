@@ -18,6 +18,7 @@ export default function App() {
     setShowPortfolio(true);
   };
 
+  // Function start
   return (
     <>
       {showPortfolio && (

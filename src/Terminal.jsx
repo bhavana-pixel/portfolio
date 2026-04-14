@@ -84,7 +84,6 @@ export default function TerminalLoader({ onFinish }) {
           <span className="cursor">█</span>
         </p>
       )}
-
       {!fadeOut && (
         <button className="skip-button" onClick={handleSkip}>
           Skip animation →

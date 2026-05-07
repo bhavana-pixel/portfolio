@@ -860,6 +860,7 @@
   animation: pulse 1.5s infinite;
 }
 
+/* Animation */
 @keyframes pulse {
   0% {
     transform: scale(1);

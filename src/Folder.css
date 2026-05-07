@@ -842,6 +842,7 @@
   text-shadow: 0 0 6px rgba(249, 95, 159, 0.5);
 }
 
+/* Animation for trademark */
 .footer-signature:hover {
   opacity: 1;
   transition: 0.3s ease;

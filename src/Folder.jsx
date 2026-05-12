@@ -2,12 +2,12 @@
 import { useState, useEffect } from "react";
 import "./Folder.css";
 
-{/* Function opening */}
+{/* Function opening */ }
 export default function Folder() {
   const [activeTab, setActiveTab] = useState(null);
   const tabs = ["About", "Resume", "Projects", "Experience"];
-  
-  {/* Function entry point */}
+
+  {/* Function entry point */ }
   return (
     <div className="folder-page-wrapper">
       <div className="folder-wrapper">
@@ -126,7 +126,7 @@ export default function Folder() {
             {activeTab === "Resume" && (
               <div className="resume-layout">
                 <h3>Resume</h3>
-      
+
                 {/* Changed pic URL to deploy */}
                 <img
                   src={`${import.meta.env.BASE_URL}resume.jpg`}

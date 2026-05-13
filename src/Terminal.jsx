@@ -38,7 +38,7 @@ export default function TerminalLoader({ onFinish }) {
       return () => clearTimeout(timer);
     }
 
-    // Terminal vars
+    // Terminal variables
     const currentLine = buildSteps[stepIndex];
     const isErrorLine = currentLine.startsWith("npm error");
 

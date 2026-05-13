@@ -14,7 +14,7 @@ export default function TerminalLoader({ onFinish }) {
     "VITE v7.3.0  ready in 1077 ms"
   ];
 
-  /* States */
+  /* Vars */
   const [lines, setLines] = useState([]);
   const [currentText, setCurrentText] = useState("");
   const [stepIndex, setStepIndex] = useState(0);

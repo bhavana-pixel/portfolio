@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "./Terminal.css";
 
 export default function TerminalLoader({ onFinish }) {
-  
+
   /* Animation statements. */
   const buildSteps = [
     "cd portfolio",
@@ -32,7 +32,6 @@ export default function TerminalLoader({ onFinish }) {
   /* Function entry point */
   useEffect(() => {
     if (skipped) return;
-
     if (stepIndex >= buildSteps.length) {
       setFadeOut(true);              // start fade
       const timer = setTimeout(onFinish, 800); // Timeout after 800 ms.

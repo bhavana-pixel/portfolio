@@ -849,6 +849,7 @@
   transition: 0.3s ease;
 }
 
+/* Stars color */
 .stars {
   color: #ffffff; /* soft pink */
   font-size: 0.9rem;

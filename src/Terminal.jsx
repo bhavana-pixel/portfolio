@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "./Terminal.css";
 
 export default function TerminalLoader({ onFinish }) {
+  
   /* Animation statements. */
   const buildSteps = [
     "cd portfolio",
@@ -49,7 +50,7 @@ export default function TerminalLoader({ onFinish }) {
           setCurrentText((prev) => prev + currentLine[charIndex]);
           setCharIndex((prev) => prev + 1);
         }, 55);
-        
+
         // Clear Timeout
         return () => clearTimeout(timeout);
       } else {

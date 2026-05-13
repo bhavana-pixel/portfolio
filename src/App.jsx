@@ -16,7 +16,7 @@ export default function App() {
     // Start fading out terminal
     setLoading(false);
 
-    // Mount portfolio immediately
+    // Show portfolio immediately
     setShowPortfolio(true);
   };
 

@@ -6,6 +6,7 @@ import "./App.css";
 export default function TypingTitle({ text = "", speed = 100 }) {
   const [displayedText, setDisplayedText] = useState("");
 
+  // Function
   useEffect(() => {
     if (!text) return;
 

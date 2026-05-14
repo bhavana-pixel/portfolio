@@ -59,7 +59,7 @@ export default function App() {
           </div>
           <div className="title-container">
           
-            {/* Had to add an extra i so that the typing title worked */}
+            {/* Had to add an extra 'i' so that the typing title worked */}
             <TypingTitle text="Hii! I'm Bhavana" speed={90} />
           </div>
           <Folder />

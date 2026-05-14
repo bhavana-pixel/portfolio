@@ -6,7 +6,7 @@ import "./App.css";
 export default function TypingTitle({ text = "", speed = 100 }) {
   const [displayedText, setDisplayedText] = useState("");
 
-  // Terminal Function
+  // Terminal Animation Function
   useEffect(() => {
     if (!text) return;
 

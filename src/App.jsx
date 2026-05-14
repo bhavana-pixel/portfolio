@@ -55,7 +55,6 @@ export default function App() {
             >
               <img src={`${import.meta.env.BASE_URL}mail.png`} alt="Email" />
             </a>
-
           </div>
           <div className="title-container">
           

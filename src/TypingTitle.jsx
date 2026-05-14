@@ -11,6 +11,7 @@ export default function TypingTitle({ text = "", speed = 100 }) {
     if (!text) return;
     setDisplayedText("");
     let index = 0;
+    
     const interval = setInterval(() => {
       if (index < text.length - 1) { // Might be janky code for the typing title.
         setDisplayedText((prev) => prev + text[index]);

@@ -26,6 +26,7 @@ export default function TypingTitle({ text = "", speed = 100 }) {
     return () => clearInterval(interval); // After 3 seconds, clear the typing bar.
   }, [text, speed]);
 
+  // Return cursor
   return (
     <h1 className="title">
       {displayedText}

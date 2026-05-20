@@ -26,11 +26,11 @@ export default function TypingTitle({ text = "", speed = 100 }) {
     return () => clearInterval(interval); // After 3 seconds, clear the typing bar.
   }, [text, speed]);
 
-  // Return cursor
+  // Return cursor for home page
   return (
     <h1 className="title">
-      {displayedText}
-      <span className="cursor">|</span>
+      {displayedText} 
+      <span className="cursor">|</span> 
     </h1>
   );
 }

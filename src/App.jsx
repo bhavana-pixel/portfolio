@@ -19,7 +19,7 @@ export default function App() {
     setShowPortfolio(true);
   };
 
-  // Function Start
+  // Function Beginning
   return (
     <>
       {showPortfolio && (

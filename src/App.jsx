@@ -5,7 +5,7 @@ import TerminalLoader from "./Terminal";
 import "./App.css";
 import TypingTitle from "./TypingTitle";
 
-// App
+// App Start
 export default function App() {
 
   // Variables

@@ -8,6 +8,8 @@ export default function TypingTitle({ text = "", speed = 100 }) {
 
   // Terminal Animation Function
   useEffect(() => {
+
+    // Set empty screen
     if (!text) return;
     setDisplayedText("");
     let index = 0;

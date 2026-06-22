@@ -81,7 +81,7 @@ export default function TerminalLoader({ onFinish }) {
         </p>
       ))}
 
-      {/* Cursor blinking */}
+      {/* Cursor blinking on screen */}
       {currentText && !skipped && (
         <p className="terminal-line">
           {currentText}

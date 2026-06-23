@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import "./Terminal.css";
 
+/* Start */
 export default function TerminalLoader({ onFinish }) {
 
   /* Animation statements. */

@@ -1,4 +1,4 @@
-/* Import Statements */
+/* JSX and CSS Import Statements */
 import { useEffect, useState } from "react";
 import "./Terminal.css";
 

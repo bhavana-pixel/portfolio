@@ -10,7 +10,7 @@ import TypingTitle from "./TypingTitle";
 // App Starting Function
 export default function App() {
 
-  // All state variables 
+  // All state variables.
   const [loading, setLoading] = useState(true);    // terminal visible
   const [showPortfolio, setShowPortfolio] = useState(false); // portfolio mounted
 

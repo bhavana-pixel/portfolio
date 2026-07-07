@@ -15,7 +15,7 @@ export default function App() {
   const [showPortfolio, setShowPortfolio] = useState(false); // portfolio mounted
 
   const handleFinish = () => {
-    // Start fading out the terminal screen
+    // Start fading the terminal screen
     setLoading(false);
 
     // Show portfolio immediately after terminal screen

@@ -1,4 +1,4 @@
-// To run local server : npm run dev
+// Command to run local server : npm run dev
 
 // Imports 
 import { useState } from "react";

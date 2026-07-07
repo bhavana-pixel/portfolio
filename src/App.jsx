@@ -28,7 +28,7 @@ export default function App() {
       {showPortfolio && (
         <div className={`page fade-in-overlap ${!loading ? "visible" : ""}`}>
           
-          {/* 🔗 Social links */}
+          {/* Social links */}
           <div className="social-links">
 
             {/* Github URL */}

@@ -41,7 +41,7 @@ export default function App() {
               <img src={`${import.meta.env.BASE_URL}github-logo.png`} alt="GitHub" />
             </a>
 
-            {/* Linkedin URL */}
+            {/* LinkedIn URL */}
             <a
               href="https://www.linkedin.com/in/bhavanadakshinamoorthy/"
               target="_blank"

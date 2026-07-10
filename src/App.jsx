@@ -31,7 +31,7 @@ export default function App() {
           {/* Social links */}
           <div className="social-links">
 
-            {/* Github URL */}
+            {/* Github link */}
             <a
               href="https://github.com/bhavana-pixel"
               target="_blank"

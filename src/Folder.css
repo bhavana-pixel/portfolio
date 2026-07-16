@@ -32,7 +32,7 @@
   transition: all 0.5s ease;
 }
 
-/* Folder CSS when shrunk */
+/* Folder styling when shrunk */
 .folder-container.shrunk {
   width: 375px;      
   min-height: 225px; 

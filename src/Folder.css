@@ -83,7 +83,7 @@
   overflow: hidden;
 }
 
-/* Loose-leaf horizontal lines */
+/* Loose-Leaf horizontal lines */
 .paper::before {
   content: "";
   position: absolute;

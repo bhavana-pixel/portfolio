@@ -100,7 +100,7 @@
   pointer-events: none; /* so lines don’t interfere with text */
 }
 
-/* Holes on the left */
+/* Holes on left */
 .paper::after {
   content: "";
   position: absolute;

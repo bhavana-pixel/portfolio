@@ -5,7 +5,7 @@ import "./Terminal.css";
 /* Start */
 export default function TerminalLoader({ onFinish }) {
 
-  /* Animation statements. */
+  /* Animation statements */
   const buildSteps = [
     "cd portfolio",
     "npm install",

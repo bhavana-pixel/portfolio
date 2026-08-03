@@ -22,7 +22,7 @@ export default function App() {
     setShowPortfolio(true);
   };
 
-  // Function Beginning
+  // Function Begins Here
   return (
     <>
       {showPortfolio && (

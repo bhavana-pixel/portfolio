@@ -7,7 +7,7 @@ export default function Folder() {
   const [activeTab, setActiveTab] = useState(null);
   const tabs = ["About", "Resume", "Projects", "Experience"];
 
-  {/* Function Entry point */ }
+  {/* Function Entry Point */ }
   return (
     <div className="folder-page-wrapper">
       <div className="folder-wrapper">

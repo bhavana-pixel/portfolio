@@ -106,7 +106,7 @@ export default function Folder() {
 
                     <div className="photo-wrapper">
 
-                      {/* Changed pic URL to deploy */}
+                      {/* Changed Picture URL to deploy */}
                       <img
                         src={`${import.meta.env.BASE_URL}me.jpg`}
                         alt="Bhavana"

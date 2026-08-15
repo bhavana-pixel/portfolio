@@ -141,7 +141,7 @@ export default function Folder() {
                   <br></br>
                   <div className="open">
 
-                    {/* Changed pic URL to deploy */}
+                    {/* Changed Picture URL to deploy */}
                     <a href={`${import.meta.env.BASE_URL}resume.jpg`} target="_blank" rel="noopener noreferrer">
                       Open full size
                     </a>

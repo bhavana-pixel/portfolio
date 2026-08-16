@@ -127,7 +127,7 @@ export default function Folder() {
               <div className="resume-layout">
                 <h3>Resume</h3>
 
-                {/* Changed pic URL to deploy */}
+                {/* Changed Pic URL to deploy */}
                 <img
                   src={`${import.meta.env.BASE_URL}resume.jpg`}
                   alt="Bhavana Resume"

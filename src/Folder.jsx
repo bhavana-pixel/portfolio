@@ -122,7 +122,7 @@ export default function Folder() {
                 </div>
               </div>
             )}
-            {/* Resume */}
+            {/* Resume Link */}
             {activeTab === "Resume" && (
               <div className="resume-layout">
                 <h3>Resume</h3>

@@ -94,7 +94,7 @@ export default function Folder() {
 
                   <div className="interests-row">
                     <div className="interests-list">
-                      {/* Interests */}
+                      {/* Interest Points */}
                       <p><strong>Some of my interests include ⇣</strong></p>
                       <p>✨ Machine Learning</p>
                       <p>✨ Artificial Intelligence</p>

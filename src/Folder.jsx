@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import "./Folder.css";
 
-{/* Function Opening statement */ }
+{/* Function Opening Statement */ }
 export default function Folder() {
   const [activeTab, setActiveTab] = useState(null);
   const tabs = ["About", "Resume", "Projects", "Experience"];

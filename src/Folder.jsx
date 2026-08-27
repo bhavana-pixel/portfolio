@@ -363,6 +363,7 @@ export default function Folder() {
           </div>
         )}
       </div>
+      {/* Trademark */}
       <p className="footer-signature">
         © {new Date().getFullYear()} Bhavana Dakshinamoorthy <span className="stars">⋆˙⟡</span>
       </p>

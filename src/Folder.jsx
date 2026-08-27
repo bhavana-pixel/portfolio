@@ -1,4 +1,4 @@
-{/* Import Statements */ }
+{/* Import statements */ }
 import { useState, useEffect } from "react";
 import "./Folder.css";
 
